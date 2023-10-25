@@ -1,31 +1,55 @@
-# News-App
-News Web App
-This is a web application that allows users to read news articles from various sources around the world, based on diferent categories.
+NewsApp - Your Daily News Digest
+NewsApp is a sleek, responsive news website that brings you the latest headlines and articles from various sectors including General, Business, Technology, Sport, and Entertainment. Utilizing the News API, it provides a smooth user experience across all device types.
 
-Technologies Used
-This project was built using HTML, CSS, JavaScript, and the News API to retrieve news articles. All the articles has been sorted in 5 categories, General, Sports, Technology, Entertainment and Buiness.
+-Table of Contents
+-Getting Started
+-Prerequisites
+-Installation
+-Usage
+-Built With
+-Contact
 
-Features
-View news articles from various sources around the world
-Filter articles by category or source
-Search for specific articles using keywords
+
+Getting Started
+
+These instructions will help you set up a copy of the project locally.
+
+Prerequisites
+Node.js installed on your machine.
+A News API key.
 Installation
-To install the News App, simply clone this repository to your local machine:
-
-git clone https://github.com/tudorboca312/News-App.git
-
+Clone the repository:
+bash
+Copy code
+git clone https://github.com/your-username/news-app.git
+Navigate to the project directory:
+bash
+Copy code
+cd news-app
+Install the dependencies:
+bash
+Copy code
+npm install
+Create a .env file in the root directory and add your News API key:
+bash
+Copy code
+echo "API_KEY=your-api-key-here" >> .env
 Usage
-To use the News App, simply open the index.html file in your web browser. You can then browse news articles by source, category, or keyword search.
+Start the server:
 
-Contributing
-Contributions are welcome! If you would like to contribute to this project, please follow these steps:
+bash
+Copy code
+npm run dev
+Open your web browser and visit http://localhost:3000 to view the website.
 
-Fork this repository
-Create a new branch for your feature or bug fix
-Make your changes and commit them to your branch
-Push your changes to your fork
-Submit a pull request to this repository
-License
-This project is licensed under the MIT License. See the LICENSE file for more information.
+Built With
+HTML, CSS, JavaScript - Core technologies.
+Bootstrap - For responsive design.
+Node.js - Server environment.
+News API - News data source.
 
-I hope you find this README file helpful! Let me know if you have any further questions or if you would like me to make any changes to the file.
+
+
+
+Contact
+Tudor Boca - tudorbocaa@gmail.com
